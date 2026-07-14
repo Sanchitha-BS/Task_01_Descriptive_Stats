@@ -101,15 +101,3 @@ same folder — the import happens automatically).
   string plus a small set of null tokens (`n/a`, `na`, `null`, `none`,
   `nan`) — not just blank cells.
 
-## Where to look for what
-
-- Want to know if the two implementations actually produce the same
-  numbers, and why or why not? → `Comparison.md`
-- Want to know what the data actually says — who spent the most, when ad
-  volume spiked, whether mentions track spend, anything surprising? →
-  `Findings.md`
-- Want to see exactly how a stat is computed? → both scripts are
-  self-contained and commented; `numeric_stats()` and
-  `categorical_stats()` are the two functions doing most of the work in
-  each (identically named in both files, so it's easy to compare them
-  side by side).
