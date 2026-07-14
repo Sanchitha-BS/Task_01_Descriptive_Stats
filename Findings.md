@@ -1,5 +1,10 @@
 # Findings: 2024 Presidential Facebook Ad Spending
 
+*All spend figures are estimated from the midpoint of Facebook's disclosed
+spend ranges (e.g. a row reporting "$100–$199" is treated as $149.50),
+since Facebook does not disclose exact dollar amounts. These are
+directional estimates, not precise totals.*
+
 ## Which organizations spent the most? Is spending concentrated or distributed?
 
 Across 246,745 ads and 4,546 distinct page names, total estimated spend
@@ -49,6 +54,13 @@ events:
   U.S. election) rather than a spending decision by advertisers, and is
   worth treating as a data-collection artifact rather than a campaign
   choice.
+- **The single most common ad *stop* date, by contrast, is Election Day
+  itself** — `ad_delivery_stop_time` = 2024-11-05 for 14,222 ads, far more
+  than any other date. Read together with the creation-side cutoff above,
+  this suggests a large share of ads placed in the final weeks were
+  deliberately scheduled to run *through* Election Day rather than stop
+  earlier — creation slows down before the deadline, but delivery windows
+  were set to extend right up to it.
 
 ## Which candidates were mentioned most? Does spend relate to mentions?
 
@@ -65,6 +77,34 @@ money buys more ad volume, and more ad volume creates more chances to
 mention a name), but it means mention frequency in this dataset is
 essentially a proxy for spend, not an independent signal about media
 attention or messaging strategy.
+
+One notable divergence sits underneath that overall correlation: **the
+page that spent the most (Kamala Harris, $82.8M) is not the name mentioned
+most often in ad text (Donald Trump, 78,324 mentions vs. Harris's
+53,239).** Spend and mentions correlate tightly *within* each candidate's
+own ad ecosystem, but the Harris campaign's higher spend didn't translate
+into more total name-mentions than Trump's — consistent with a
+Trump-heavy "attack ad" pattern where opposing campaigns and PACs mention
+Trump by name more often than Trump-aligned ads mention Trump himself.
+
+### Messaging patterns
+
+Across all ads, the most common message types (each ad can carry more
+than one) are:
+
+| Message type | Share of ads |
+|---|---|
+| Call to action (CTA) | 57.3% |
+| Advocacy | 54.9% |
+| Issue-based | 38.2% |
+| Attack | 27.2% |
+
+The dominance of CTA and advocacy messaging over issue-based or attack
+content suggests the bulk of ad spend in this dataset went toward direct
+voter engagement, fundraising, and mobilization rather than policy
+argumentation — consistent with the late-October volume spike (Section
+2) looking like a get-out-the-vote push rather than a persuasion
+campaign.
 
 ## Are there geographic patterns in the data?
 
