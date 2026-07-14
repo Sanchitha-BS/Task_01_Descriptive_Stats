@@ -1,10 +1,5 @@
 # Findings: 2024 Presidential Facebook Ad Spending
 
-*All spend figures are estimated from the midpoint of Facebook's disclosed
-spend ranges (e.g. a row reporting "$100–$199" is treated as $149.50),
-since Facebook does not disclose exact dollar amounts. These are
-directional estimates, not precise totals.*
-
 ## Which organizations spent the most? Is spending concentrated or distributed?
 
 Across 246,745 ads and 4,546 distinct page names, total estimated spend
