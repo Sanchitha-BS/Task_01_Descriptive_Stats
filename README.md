@@ -18,11 +18,13 @@ scored with additional "illuminating_*" content-classification flags.
 
 ## Getting the dataset
 
-The CSV is **not included in this repository**. Download it separately and
+The CSV is not included in this repository. Download it separately and
 place it in the same folder as the scripts before running either one:
 
-1. Download `fb_ads_president_scored_anon.csv` from **[insert dataset
-   source link here — e.g. the course-provided Google Drive folder]**.
+Dataset source: 2024 Facebook Political Ads Dataset — download from
+the course-provided Google Drive link.
+
+1. Download fb_ads_president_scored_anon.csv from the link above.
 2. Place the file in the repo root, alongside the scripts:
 
 ```text
