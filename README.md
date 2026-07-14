@@ -24,7 +24,7 @@ place it in the same folder as the scripts before running either one:
 Dataset source: 2024 Facebook Political Ads Dataset — download from
 the course-provided Google Drive link.
 
-1. Download fb_ads_president_scored_anon.csv from the link above.
+1. Download fb_ads_president_scored_anon.csv from the drive link.
 2. Place the file in the repo root, alongside the scripts:
 
 ```text
